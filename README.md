@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/inspec_delta.png)](http://badge.fury.io/rb/inspec_delta)
-[![CD Status](https://github.com/cerner/inspec_delta/workflows/CD/badge.svg?branch=master)](https://github.com/cerner/inspec_delta/actions?query=workflow%3ACD+branch%3Amaster)
+[![CD Status](https://github.com/cerner/inspec_delta/workflows/CI/badge.svg?branch=master)](https://github.com/cerner/inspec_delta/actions?query=workflow%3ACI+branch%3Amaster)
 
 # Inspec Delta
 
