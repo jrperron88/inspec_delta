@@ -1,4 +1,5 @@
-[![CI Status](https://github.com/jrperron88/inspec_delta/workflows/CI/badge.svg?branch=ETSOE-2220-TravisCI)](https://github.com/jrperron88/inspec_delta/actions?query=workflow%3ACI+branch%3AETSOE-2220-TravisCI)
+[![Gem Version](https://badge.fury.io/rb/inspec_delta.png)](http://badge.fury.io/rb/inspec_delta)
+[![CD Status](https://github.com/cerner/inspec_delta/workflows/CD/badge.svg?branch=master)](https://github.com/cerner/inspec_delta/actions?query=workflow%3ACD+branch%3Amaster)
 
 # Inspec Delta
 

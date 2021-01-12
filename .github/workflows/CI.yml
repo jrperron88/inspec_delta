@@ -1,9 +1,8 @@
+#CI will run on all pushes and PRs to verify validity of the code
 name: CI
 
 on:
   push:
-  #build all branches until we get it set up
-    #branches: [ master ]
     branches: ['**']
   pull_request:
     branches: ['**']
@@ -13,12 +12,16 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-    name: Ruby ${{ matrix.ruby }}
+    name: Ruby
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
     - name: Install dependencies
       run: bundle install --jobs 4 --retry 3
     - name: Run tests
       run: bundle exec rake
+    - name: Rubocop
+      run: rubocop
