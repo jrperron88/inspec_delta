@@ -119,7 +119,7 @@ describe InspecDelta::Parser::Benchmark do
         expect(control[:false_positives]).to eq(false_positives)
         expect(control[:documentable]).to eq(documentable)
         expect(control[:mitigations]).to eq(mitigations)
-        expect(control[:severity_override_guidance]).to eq('asdf')
+        expect(control[:severity_override_guidance]).to eq(severity_override_guidance)
         expect(control[:potential_impacts]).to eq(potential_impacts)
         expect(control[:third_party_tools]).to eq(third_party_tools)
         expect(control[:mitigation_controls]).to eq(mitigation_controls)
