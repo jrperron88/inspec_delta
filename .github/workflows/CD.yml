@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Release to RubyGems
     steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - name: Install dependencies
+      run: bundle install --jobs 4 --retry 3
     - name: Publish to RubyGems
       run: |
         mkdir -p $HOME/.gem
