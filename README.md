@@ -1,6 +1,6 @@
-# Inspec Delta
+[![CI Status](https://github.com/jrperron88/inspec_delta/workflows/CI/badge.svg?branch=ETSOE-2220-TravisCI)%5D(https://github.com/jrperron88/inspec_delta/actions?query=workflow%3ACI+branch%3AETSOE-2220-TravisCI)
 
-![Continuous Integration](https://github.com/jrperron88/inspec_delta/workflows/CI/badge.svg)
+# Inspec Delta
 
 This Gem aims to make the maintenance of Inspec profiles representing security benchmarks less of a burden by providing helpful command line tools.
 
