@@ -1,5 +1,7 @@
 # Inspec Delta
 
+![Continuous Integration](https://github.com/jrperron88/inspec_delta/workflows/CI/badge.svg)
+
 This Gem aims to make the maintenance of Inspec profiles representing security benchmarks less of a burden by providing helpful command line tools.
 
 For information on STIGs visit the [DoD Cyber Exchange](https://public.cyber.mil/stigs/).
