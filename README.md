@@ -1,5 +1,7 @@
 # Inspec Delta
 
+![inspec_delta Logo](inspec-delta-icon.png?raw=true "Inspec Delta")
+
 This Gem aims to make the maintenance of Inspec profiles representing security benchmarks less of a burden by providing helpful command line tools.
 
 For information on STIGs visit the [DoD Cyber Exchange](https://public.cyber.mil/stigs/).

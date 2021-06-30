@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'commands/profile'
+require_relative 'commands/stig'
 
 module InspecDelta
   # Public: Various commands issued for the user to interact with. These will
@@ -17,5 +18,9 @@ module InspecDelta
     # Contains subcommands for working with Inspec Profiles
     desc 'profile', 'Subcommands: update'
     subcommand 'profile', InspecDelta::Commands::Profile
+
+    # Contains subcommands for working with Inspec STIGs
+    desc 'stig', 'Subcommands: checklist'
+    subcommand 'stig', InspecDelta::Commands::STIG
   end
 end
